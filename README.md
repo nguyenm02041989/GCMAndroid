@@ -1,13 +1,13 @@
 GCMAndroid
 ==========
 
-Android Java Client class to setup Google Cloud Messaging
+An app which you can use to enable Google Cloud Messaging push messages in your own app.
 
-This is a simple class to create a Android Client for GCM. 
+Read more see: 
 
-There’re different IDE solutions.
-- Eclipse ADT v22.3.0.v20131024
-- Android Studio v0.4.3
+[https://github.com/nguyenm02041989/GCMAndroid/wiki/GCM-Android-App](https://github.com/nguyenm02041989/GCMAndroid/wiki/GCM-Android-App)
+
+
 
 
 
