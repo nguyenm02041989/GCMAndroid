@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/notifications"
+        android:key="notifications">
+        
+        <CheckBoxPreference 
+            android:key="notify_new_messages"
+            android:summary="@string/summary_receive_notifications"
+            android:title="@string/enable_notifications" 
+            android:defaultValue="true"
+        />
+
+        <CheckBoxPreference 
+            android:key="notify_vibrate"
+            android:summary="@string/summary_vibration_device"
+            android:title="@string/enable_vibrate" 
+            android:defaultValue="true"
+            android:dependency="notify_new_messages"
+        />
+        
+    </PreferenceCategory>   
+</PreferenceScreen>
